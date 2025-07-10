@@ -1,0 +1,130 @@
+{
+  "mudah": [
+    {
+      "level": 1,
+      "soalan": [
+        {
+          "type": "mcq",
+          "q": "Apakah baris bagi مرفوع",
+          "options":  ["ضمّة", "كسرة", "فتحة","سكون"],
+          "answer": "ضمّة"
+        },
+        {
+          "type": "mcq",
+          "q": "Apakah i'rab 'madrasatun'?",
+          "options": ["Marfu'", "Mansub", "Majrur"],
+          "answer": "Marfu'"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "soalan": [
+        {
+          "type": "mcq",
+          "q": "Apakah i'rab 'kitaban'?",
+          "options": ["Marfu'", "Mansub", "Majrur"],
+          "answer": "Mansub"
+        },
+        {
+          "type": "mcq",
+          "q": "Apakah i'rab 'madrasatan'?",
+          "options": ["Marfu'", "Mansub", "Majrur"],
+          "answer": "Mansub"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "soalan": [
+        {
+          "type": "mcq",
+          "q": "Apakah i'rab 'kitabin'?",
+          "options": ["Marfu'", "Mansub", "Majrur"],
+          "answer": "Majrur"
+        },
+        {
+          "type": "mcq",
+          "q": "Apakah i'rab 'madrasatin'?",
+          "options": ["Marfu'", "Mansub", "Majrur"],
+          "answer": "Majrur"
+        }
+      ]
+    }
+    // ... Ulang format untuk level 4–10
+  ],
+  "sederhana": [
+    {
+      "level": 1,
+      "soalan": [
+        {
+          "type": "mcq",
+          "q": "Apakah tanda Marfu' untuk isim mufrad?",
+          "options": ["Dammah", "Fathah", "Kasrah"],
+          "answer": "Dammah"
+        },
+        {
+          "type": "mcq",
+          "q": "Apakah tanda Mansub untuk isim mufrad?",
+          "options": ["Dammah", "Fathah", "Kasrah"],
+          "answer": "Fathah"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "soalan": [
+        {
+          "type": "mcq",
+          "q": "Apakah tanda Majrur untuk isim mufrad?",
+          "options": ["Dammah", "Fathah", "Kasrah"],
+          "answer": "Kasrah"
+        },
+        {
+          "type": "mcq",
+          "q": "Apakah i'rab fi'il mudhari' bila didahului 'lan'?",
+          "options": ["Marfu'", "Mansub", "Majzum"],
+          "answer": "Mansub"
+        }
+      ]
+    }
+    // ... Ulang format untuk level 3–10
+  ],
+  "pakar": [
+    {
+      "level": 1,
+      "soalan": [
+        {
+          "type": "mcq",
+          "q": "Dalam ayat 'ذهب محمد إلى المدرسة', apakah i'rab 'محمد'?",
+          "options": ["Marfu'", "Mansub", "Majrur"],
+          "answer": "Marfu'"
+        },
+        {
+          "type": "mcq",
+          "q": "Apakah i'rab 'المدرسة' dalam ayat tersebut?",
+          "options": ["Marfu'", "Mansub", "Majrur"],
+          "answer": "Majrur"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "soalan": [
+        {
+          "type": "mcq",
+          "q": "Dalam ayat 'لن يذهب أحمد', apakah i'rab fi'il 'يذهب'?",
+          "options": ["Marfu'", "Mansub", "Majzum"],
+          "answer": "Mansub"
+        },
+        {
+          "type": "mcq",
+          "q": "Apakah tanda Mansub bagi fi'il mudhari'?",
+          "options": ["Dammah", "Fathah", "Sukun"],
+          "answer": "Fathah"
+        }
+      ]
+    }
+    // ... Ulang format untuk level 3–10
+  ]
+}
