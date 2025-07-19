@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#0f766e", // hijau
-        secondary: "#facc15", // emas
+        primary: "#7B3F00", // coklat
+        secondary: "#FFFDD0", // krim
       },
     },
   },
