@@ -1,7 +1,20 @@
 import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
+// Sample questions. You should replace or fetch these dynamically.
 const questions = [
+  {
+    question: "Apakah maksud I'rab?",
+    options: ["Perubahan akhir kalimah", "Perubahan awal kalimah", "Perubahan tengah kalimah", "Tiada perubahan"],
+    answer: 0,
+  },
+  {
+    question: "Bilakah perubahan I'rab berlaku?",
+    options: ["Pada kata kerja", "Pada kata nama", "Pada kata sifat", "Pada semua kalimah"],
+    answer: 1,
+  },
+  // Add more questions as needed
+];
 
 export default function Quiz() {
   const { modId, levelId } = useParams();
