@@ -5,12 +5,12 @@ export default function Home() {
   const mods = [
     { id: "mudah", name: "Mudah – سهل" },
     { id: "sederhana", name: "Sederhana – متوسط" },
-    { id: "pakar", name: "Pakar – خبير" },
+    { id: "pakar", name: "Susah – عسر" },
   ];
 
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-primary to-secondary text-white">
-      <h1 className="text-4xl font-bold mb-8">Ebil – E-Learning I’rab</h1>
+      <h1 className="text-4xl font-bold mb-8">Al-Ebil | I’rab E-Learning</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {mods.map((mod) => (
           <Link
