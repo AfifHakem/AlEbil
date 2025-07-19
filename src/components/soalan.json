@@ -5,8 +5,8 @@
       "soalan": [
         {
           "type": "mcq",
-          "q": "Apakah baris bagi مرفوع",
-          "options":  ["ضمّة", "كسرة", "فتحة","سكون"],
+          "q": "Apakah baris bagi مرفوع?",
+          "options": ["ضمّة", "كسرة", "فتحة", "سكون"],
           "answer": "ضمّة"
         },
         {
@@ -50,81 +50,470 @@
           "answer": "Majrur"
         }
       ]
-    }
-    // ... Ulang format untuk level 4–10
-  ],
-  "sederhana": [
+    },
     {
-      "level": 1,
+      "level": 4,
       "soalan": [
         {
           "type": "mcq",
-          "q": "Apakah tanda Marfu' untuk isim mufrad?",
-          "options": ["Dammah", "Fathah", "Kasrah"],
+          "q": "Baris apa menunjukkan kata nama sedang menjadi subjek?",
+          "options": ["Dammah", "Fathah", "Kasrah", "Sukun"],
           "answer": "Dammah"
         },
         {
           "type": "mcq",
-          "q": "Apakah tanda Mansub untuk isim mufrad?",
+          "q": "Apakah tanda baris untuk mansub?",
           "options": ["Dammah", "Fathah", "Kasrah"],
           "answer": "Fathah"
         }
       ]
     },
     {
-      "level": 2,
+      "level": 5,
       "soalan": [
         {
           "type": "mcq",
-          "q": "Apakah tanda Majrur untuk isim mufrad?",
-          "options": ["Dammah", "Fathah", "Kasrah"],
-          "answer": "Kasrah"
-        },
-        {
-          "type": "mcq",
-          "q": "Apakah i'rab fi'il mudhari' bila didahului 'lan'?",
-          "options": ["Marfu'", "Mansub", "Majzum"],
-          "answer": "Mansub"
-        }
-      ]
-    }
-    // ... Ulang format untuk level 3–10
-  ],
-  "pakar": [
-    {
-      "level": 1,
-      "soalan": [
-        {
-          "type": "mcq",
-          "q": "Dalam ayat 'ذهب محمد إلى المدرسة', apakah i'rab 'محمد'?",
+          "q": "Kata 'baitun' berada dalam i'rab apa?",
           "options": ["Marfu'", "Mansub", "Majrur"],
           "answer": "Marfu'"
         },
         {
           "type": "mcq",
-          "q": "Apakah i'rab 'المدرسة' dalam ayat tersebut?",
+          "q": "Kata 'baitan' berada dalam i'rab apa?",
           "options": ["Marfu'", "Mansub", "Majrur"],
+          "answer": "Mansub"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "soalan": [
+        {
+          "type": "mcq",
+          "q": "Kata 'baytin' berada dalam i'rab apa?",
+          "options": ["Marfu'", "Mansub", "Majrur"],
+          "answer": "Majrur"
+        },
+        {
+          "type": "mcq",
+          "q": "Perkataan dalam keadaan marfu’ biasanya digunakan sebagai?",
+          "options": ["Subjek", "Objek", "Maf’ul bih"],
+          "answer": "Subjek"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "soalan": [
+        {
+          "type": "mcq",
+          "q": "Kata 'qalamun' dalam ayat sebagai apa?",
+          "options": ["Subjek", "Objek", "Sifat"],
+          "answer": "Subjek"
+        },
+        {
+          "type": "mcq",
+          "q": "Jika kata berakhir dengan kasrah, ia biasanya?",
+          "options": ["Majrur", "Mansub", "Marfu'"],
           "answer": "Majrur"
         }
       ]
     },
     {
-      "level": 2,
+      "level": 8,
       "soalan": [
         {
           "type": "mcq",
-          "q": "Dalam ayat 'لن يذهب أحمد', apakah i'rab fi'il 'يذهب'?",
-          "options": ["Marfu'", "Mansub", "Majzum"],
-          "answer": "Mansub"
+          "q": "Apakah jenis baris bagi kata isim dalam posisi objek?",
+          "options": ["Fathah", "Dammah", "Kasrah"],
+          "answer": "Fathah"
         },
         {
           "type": "mcq",
-          "q": "Apakah tanda Mansub bagi fi'il mudhari'?",
-          "options": ["Dammah", "Fathah", "Sukun"],
-          "answer": "Fathah"
+          "q": "Tanda 'sukun' adalah untuk?",
+          "options": ["Majzum", "Marfu'", "Mansub"],
+          "answer": "Majzum"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "soalan": [
+        {
+          "type": "mcq",
+          "q": "Apakah baris yang digunakan untuk isim majrur?",
+          "options": ["Kasrah", "Fathah", "Dammah"],
+          "answer": "Kasrah"
+        },
+        {
+          "type": "mcq",
+          "q": "Contoh kata dalam keadaan majrur ialah?",
+          "options": ["masjidin", "masjidan", "masjidun"],
+          "answer": "masjidin"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "soalan": [
+        {
+          "type": "mcq",
+          "q": "Perkataan 'fi' menyebabkan kata selepasnya menjadi?",
+          "options": ["Majrur", "Mansub", "Marfu'"],
+          "answer": "Majrur"
+        },
+        {
+          "type": "mcq",
+          "q": "Apakah i’rab selepas huruf jar?",
+          "options": ["Majrur", "Mansub", "Marfu'"],
+          "answer": "Majrur"
         }
       ]
     }
-    // ... Ulang format untuk level 3–10
   ]
 }
+  ],
+"sederhana": [
+  {
+    "level": 1,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Apakah tanda Marfu' untuk isim mufrad?",
+        "options": ["Dammah", "Fathah", "Kasrah"],
+        "answer": "Dammah"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah tanda Mansub untuk isim mufrad?",
+        "options": ["Dammah", "Fathah", "Kasrah"],
+        "answer": "Fathah"
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Apakah tanda Majrur untuk isim mufrad?",
+        "options": ["Dammah", "Fathah", "Kasrah"],
+        "answer": "Kasrah"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah i'rab fi'il mudhari' bila didahului 'lan'?",
+        "options": ["Marfu'", "Mansub", "Majzum"],
+        "answer": "Mansub"
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Apakah tanda Majzum bagi fi'il mudhari'?",
+        "options": ["Sukun", "Fathah", "Kasrah"],
+        "answer": "Sukun"
+      },
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'لم يذهب خالد', apakah i'rab 'يذهب'?",
+        "options": ["Marfu'", "Mansub", "Majzum"],
+        "answer": "Majzum"
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Huruf 'لن' memberi kesan apa pada fi'il mudhari’?",
+        "options": ["Marfu'", "Mansub", "Majzum"],
+        "answer": "Mansub"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah tanda Marfu’ bagi fi'il mudhari’?",
+        "options": ["Dammah", "Fathah", "Sukun"],
+        "answer": "Dammah"
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Apakah tanda Majzum bagi fi’il yang bersambung dengan nun niswa?",
+        "options": ["Hazaf huruf akhir", "Sukun", "Fathah"],
+        "answer": "Hazaf huruf akhir"
+      },
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'لن يذهبوا', apa tanda i’rab bagi 'يذهبوا'?",
+        "options": ["Fathah", "Dammah", "Sukun"],
+        "answer": "Fathah"
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Fi’il mudhari’ dalam ayat 'لم يفعل' berstatus?",
+        "options": ["Marfu'", "Majzum", "Mansub"],
+        "answer": "Majzum"
+      },
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'لن يكتب', apakah tanda i’rab 'يكتب'?",
+        "options": ["Fathah", "Dammah", "Kasrah"],
+        "answer": "Fathah"
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Huruf 'lam' dalam 'لم' memberi kesan i’rab apa kepada fi’il mudhari’?",
+        "options": ["Majzum", "Mansub", "Marfu'"],
+        "answer": "Majzum"
+      },
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'يكتبُ الولدُ الدرسَ', apakah i'rab 'الولدُ'?",
+        "options": ["Marfu'", "Mansub", "Majrur"],
+        "answer": "Marfu'"
+      }
+    ]
+  },
+  {
+    "level": 8,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'يكتبُ الولدُ الدرسَ', apakah i'rab 'الدرسَ'?",
+        "options": ["Marfu'", "Mansub", "Majrur"],
+        "answer": "Mansub"
+      },
+      {
+        "type": "mcq",
+        "q": "Fi'il mudhari’ boleh jadi marfu’ jika tidak didahului oleh?",
+        "options": ["Huruf nasakh", "Huruf jazm", "Kedua-duanya"],
+        "answer": "Kedua-duanya"
+      }
+    ]
+  },
+  {
+    "level": 9,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Fi’il 'يذهبْ' dalam ayat 'لا تذهبْ' berstatus?",
+        "options": ["Marfu'", "Mansub", "Majzum"],
+        "answer": "Majzum"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah huruf yang menjazmkan fi’il mudhari’?",
+        "options": ["لم", "لن", "لا الناهية"],
+        "answer": "لم"
+      }
+    ]
+  },
+  {
+    "level": 10,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'لن يلعبَ الطفلُ', apakah i’rab 'يلعبَ'?",
+        "options": ["Mansub", "Majzum", "Marfu'"],
+        "answer": "Mansub"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah tanda jazm bagi fi'il mudhari' yang berakhir dengan huruf illah?",
+        "options": ["Hazaf huruf", "Fathah", "Sukun"],
+        "answer": "Hazaf huruf"
+      }
+    ]
+  }
+]
+"pakar": [
+  {
+    "level": 1,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'ذهب محمد إلى المدرسة', apakah i'rab 'محمد'?",
+        "options": ["Marfu'", "Mansub", "Majrur"],
+        "answer": "Marfu'"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah i'rab 'المدرسة' dalam ayat tersebut?",
+        "options": ["Marfu'", "Mansub", "Majrur"],
+        "answer": "Majrur"
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'لن يذهب أحمد', apakah i'rab fi'il 'يذهب'?",
+        "options": ["Marfu'", "Mansub", "Majzum"],
+        "answer": "Mansub"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah tanda Mansub bagi fi'il mudhari'?",
+        "options": ["Dammah", "Fathah", "Sukun"],
+        "answer": "Fathah"
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'لم يكتب الطالبُ', apakah tanda i’rab 'يكتب'?",
+        "options": ["Sukun", "Fathah", "Dammah"],
+        "answer": "Sukun"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah jenis i'rab bagi isim selepas huruf jer seperti 'في'?",
+        "options": ["Majrur", "Mansub", "Marfu'"],
+        "answer": "Majrur"
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'أكل زيدٌ التفاحةَ', apakah i’rab 'زيدٌ'?",
+        "options": ["Marfu'", "Mansub", "Majrur"],
+        "answer": "Marfu'"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah i’rab 'التفاحةَ' dalam ayat tersebut?",
+        "options": ["Mansub", "Marfu'", "Majrur"],
+        "answer": "Mansub"
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'إن زيدًا كريمٌ', apakah i’rab 'زيدًا'?",
+        "options": ["Mansub", "Marfu'", "Majrur"],
+        "answer": "Mansub"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah kesan huruf 'إن' terhadap kata selepasnya?",
+        "options": ["Mansub", "Majrur", "Marfu'"],
+        "answer": "Mansub"
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'كان محمدٌ نائمًا', apakah i’rab 'محمدٌ'?",
+        "options": ["Marfu'", "Mansub", "Majrur"],
+        "answer": "Marfu'"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah i’rab 'نائمًا' dalam ayat tersebut?",
+        "options": ["Mansub", "Marfu'", "Majrur"],
+        "answer": "Mansub"
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Apakah kesan 'كان' terhadap jumlah ismiyyah?",
+        "options": ["Isim Marfu', Khabar Mansub", "Isim Mansub, Khabar Marfu'", "Kedua-duanya Majrur"],
+        "answer": "Isim Marfu', Khabar Mansub"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah i’rab bagi 'الطالبُ' dalam ayat 'الطالبُ مجتهدٌ'?",
+        "options": ["Marfu'", "Mansub", "Majrur"],
+        "answer": "Marfu'"
+      }
+    ]
+  },
+  {
+    "level": 8,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'في البيتِ ولدٌ', apakah i’rab 'البيتِ'?",
+        "options": ["Majrur", "Marfu'", "Mansub"],
+        "answer": "Majrur"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah i’rab 'ولدٌ' dalam ayat tersebut?",
+        "options": ["Marfu'", "Majrur", "Mansub"],
+        "answer": "Marfu'"
+      }
+    ]
+  },
+  {
+    "level": 9,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'السماءُ صافيةٌ', apakah i’rab 'السماءُ'?",
+        "options": ["Marfu'", "Mansub", "Majrur"],
+        "answer": "Marfu'"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah tanda bagi i’rab Marfu’ dalam ayat tersebut?",
+        "options": ["Dammah", "Fathah", "Kasrah"],
+        "answer": "Dammah"
+      }
+    ]
+  },
+  {
+    "level": 10,
+    "soalan": [
+      {
+        "type": "mcq",
+        "q": "Dalam ayat 'أصبح الجوُّ باردًا', apakah i’rab 'الجوُّ'?",
+        "options": ["Marfu'", "Mansub", "Majrur"],
+        "answer": "Marfu'"
+      },
+      {
+        "type": "mcq",
+        "q": "Apakah i’rab 'باردًا' dalam ayat tersebut?",
+        "options": ["Mansub", "Marfu'", "Majrur"],
+        "answer": "Mansub"
+      }
+    ]
+  }
+]
