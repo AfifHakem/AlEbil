@@ -1,17 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-
-import questions from '../soalan.json';
 
 export default function Quiz() {
   const { modId, levelId } = useParams();
+  const [questions, setQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
   const [score, setScore] = useState(0);
   const [selected, setSelected] = useState(null);
   const [showScore, setShowScore] = useState(false);
 
-  const handleOptionClick = (index) => {
-    setSelected(index);
+  // Fetch questions from soalan.json
+  useEffect(() => {
+    fetch(process.env.PUBLIC_URL + "/soalan.json")
+      .then((res) => res.json())
+      .then((data) => setQuestions(data));
+  }, []);
+
+  if (questions.length === 0) {
+    return (
+      <div className="flex flex-col items-center justify-center h-screen bg-white text-primary">
+        <h2 className="text-2xl font-bold mb-4">Sedang memuatkan soalan...</h2>
+      </div>
+    );
+  }
+
+  const handleOptionClick = (idx) => {
+    setSelected(idx);
   };
 
   const handleNext = () => {
@@ -38,11 +52,15 @@ export default function Quiz() {
       <h2 className="text-2xl font-bold mb-4">
         Kuiz Level {levelId} – الوضع {modId}
       </h2>
-
       {showScore ? (
         <div className="text-center">
-          <p className="mb-4 font-semibold">Skor anda: {score} / {questions.length}</p>
-          <button onClick={handleRestart} className="bg-primary text-white px-4 py-2 rounded mr-2">
+          <p className="mb-4 font-semibold">
+            Skor anda: {score} / {questions.length}
+          </p>
+          <button
+            onClick={handleRestart}
+            className="bg-primary text-white px-4 py-2 rounded mr-2"
+          >
             Mula Semula
           </button>
           <Link
