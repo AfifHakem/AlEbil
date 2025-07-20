@@ -5,7 +5,8 @@ export default function Home() {
   const mods = [
     { id: "mudah", name: "Mudah – سهل" },
     { id: "sederhana", name: "Sederhana – متوسط" },
-    { id: "pakar", name: "Susah – عسر" },
+    { id: "ahmad",name: "Ahmad Zul" },
+    { id: "susah", name: "Susah – عسر" },
   ];
 
   return (
